@@ -8,15 +8,6 @@
   analytics.page();
   }}();
 </script>
- <!-- Global site tag (gtag.js) - Google Ads: 10961930492 -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=AW-10961930492"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'AW-10961930492');
-</script>
 
 <title>Sneakerhead Signup<span id="selection-marker-1" class="redactor-selection-marker"></span></title>
 </head>
@@ -199,7 +190,7 @@ var isGclidValid = gclid && new Date().getTime() < gclid.expiryDate;
 if (currGclidFormField && isGclidValid) {
 currGclidFormField.value = gclid.value;
 }
- console.log(gclid.value)
+ console.log(gclid)
 }
 
 window.addEventListener('load', addGclid);
